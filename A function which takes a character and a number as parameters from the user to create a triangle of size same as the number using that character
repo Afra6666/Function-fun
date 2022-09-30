@@ -1,6 +1,4 @@
 def pypart(n):
-   
-    n=int(input("Enter the size of the triangle: "))
     
     myList = []
 
@@ -11,6 +9,6 @@ def pypart(n):
 
     print("\n".join(myList))
 
-# Driver Code
+n=int(input("Enter the size of the triangle: "))
 
 pypart(n)
